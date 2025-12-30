@@ -1,0 +1,42 @@
+basics:
+  name: "Jane Doe"
+  email: "jane.doe@example.com"
+  phone: "+1 (555)-555-5555"
+  location: "City, State, Country"
+  github: "https://github.com/username"
+  linkedin: "https://linkedin.com/in/username"
+
+education:
+  - name: Example University
+    title: MEng in Computer Science
+    location: City, State
+    dates: Aug 202X - May 202Y
+    gpa: 4.0 / 4.0
+
+experience:
+  - name: Example Company
+    title: Software Engineer Intern
+    dates: Jun 202X - Aug 202X
+    tools: ["Python", "React", "Docker"]
+    bullets:
+      - id: example_bullet_1
+        text: "Built an internal dashboard to automate access workflows and reduce manual processing time."
+
+projects:
+  - name: Example Project
+    dates: Jan 202X - May 202X
+    tools: ["Python", "FastAPI"]
+    bullets:
+      - id: example_project_1
+        text: "Developed a backend service to process and analyze structured documents."
+
+skills:
+  programming_languages:
+    - Python
+    - JavaScript
+    - Java
+
+  technologies:
+    - Docker
+    - Kubernetes
+    - React
